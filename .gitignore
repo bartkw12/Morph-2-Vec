@@ -13,7 +13,7 @@ outputs
 *.log
 *.pkl
 *.mp4
-*.pdf
+
 *.parquet
 .vscode
 .DS_Store
