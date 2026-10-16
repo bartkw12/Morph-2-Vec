@@ -9,7 +9,6 @@ from omegaconf import DictConfig, OmegaConf
 from hydra.core.hydra_config import HydraConfig
 from hydra.utils import instantiate
 import numpy as np
-from ray import tune
 from sklearn.metrics import roc_curve, roc_auc_score
 import torch
 import transformers
@@ -52,6 +51,9 @@ def prepare_neg_dataset(equiv_dataset: SpeechEquivalenceDataset,
 
 
 def make_hyperparameter_space(fixed_hidden_dim: Optional[int] = None):
+    # ray is only needed for hyperparameter search
+    from ray import tune
+
     def hyperparameter_space(trial):
         ret = {
             "learning_rate": tune.loguniform(1e-5, 1e-1),
@@ -66,6 +68,8 @@ def make_hyperparameter_space(fixed_hidden_dim: Optional[int] = None):
     return hyperparameter_space
 
 def make_hyperparameter_space_hinge(fixed_hidden_dim: Optional[int] = None):
+    from ray import tune
+
     def hyperparameter_space_hinge(trial):
         ret = {
             "learning_rate": tune.loguniform(1e-5, 1e-1),
@@ -100,7 +104,7 @@ def train(config: DictConfig):
     hidden_state_dataset = SpeechHiddenStateDataset.from_hdf5(hidden_states_path)
 
     equiv_dataset_path = config.equivalence.path
-    equiv_dataset: SpeechEquivalenceDataset = torch.load(equiv_dataset_path)
+    equiv_dataset: SpeechEquivalenceDataset = torch.load(equiv_dataset_path, weights_only=False)
 
     if config.get("smoke_test"):
         with equiv_dataset.modify_Q_ctx():
