@@ -282,7 +282,14 @@ def compute_state_space_spec(name: str, computer, dataset_path, hidden_state_pat
 
 @hydra.main(config_path="../conf", config_name="config.yaml", version_base="1.2")
 def main(config: DictConfig):
-    dask_client = Client(LocalCluster())
+    # `+analysis.scheduler=synchronous` computes specs one at a time in this process,
+    # e.g. if a multi-process LocalCluster is problematic (Windows) or runs out of memory.
+    scheduler = config.analysis.get("scheduler", "distributed")
+    compute_kwargs = {}
+    if scheduler == "distributed":
+        dask_client = Client(LocalCluster())
+    else:
+        compute_kwargs["scheduler"] = scheduler
 
     # compute in parallel
     dask_results = dask.compute(*[
@@ -290,7 +297,7 @@ def main(config: DictConfig):
                                  config.dataset.processed_data_dir,
                                  config.base_model.hidden_state_path)
         for name, computer in STATE_SPACE_COMPUTERS.items()
-    ])
+    ], **compute_kwargs)
 
     # ensure no name collisions
     all_state_space_specs = {}
