@@ -23,7 +23,7 @@ def main(config: DictConfig):
 
     equiv_dataset_path = config.equivalence.path
     with open(equiv_dataset_path, "rb") as f:
-        equiv_dataset: SpeechEquivalenceDataset = torch.load(f)
+        equiv_dataset: SpeechEquivalenceDataset = torch.load(f, weights_only=False)
 
     embeddings = compute_embeddings(model, equiv_dataset, hidden_states, batch_size=96)
     embeddings = embeddings.cpu().numpy()
