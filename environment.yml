@@ -1,0 +1,17 @@
+# Conda environment for Morph-2-Vec (Windows / Linux).
+#
+#   conda env create -f environment.yml
+#   conda activate morph2vec
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements.txt
+#   python -m spacy download en_core_web_trf
+#
+# torch is installed separately from the CUDA wheel index so that pip does not
+# pull the CPU-only build from PyPI.
+name: morph2vec
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
