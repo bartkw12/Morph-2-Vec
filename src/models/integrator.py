@@ -410,7 +410,7 @@ def iter_dataset(equiv_dataset_path: str,
     # Implementation note: because this function is invoked from the Datasets generator
     # pipeline, we pass paths rather than objects so that the relevant inputs don't get
     # needlessly re-serialized every time this function is used.
-    equiv_dataset = torch.load(equiv_dataset_path)
+    equiv_dataset = torch.load(equiv_dataset_path, weights_only=False)
     hidden_state_dataset = SpeechHiddenStateDataset.from_hdf5(hidden_states_path)
 
     class_to_frames = None
