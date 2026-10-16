@@ -26,7 +26,6 @@ import os
 from pathlib import Path
 
 import datasets
-from datasets.tasks import AutomaticSpeechRecognition
 import textgrid
 
 
@@ -109,7 +108,6 @@ class LibrispeechASR(datasets.GeneratorBasedBuilder):
             ),
             supervised_keys=("file", "text"),
             citation=_CITATION,
-            task_templates=[AutomaticSpeechRecognition(audio_column="audio", transcription_column="text")],
         )
 
     def _split_generators(self, dl_manager):
