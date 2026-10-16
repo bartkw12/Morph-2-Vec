@@ -6,15 +6,16 @@ from hydra.utils import instantiate
 import transformers
 
 
-def prepare_processor(config):
-    if "facebook/wav2vec2" not in config.base_model.model_ref:
-        raise NotImplementedError()
+def prepare_feature_extractor(config) -> transformers.SequenceFeatureExtractor:
+    """
+    Prepare the feature extractor used to pad batches of preprocessed waveforms.
 
-    tokenizer = instantiate(config.tokenizer)
+    Inputs are already normalized during preprocessing, so the feature extractor
+    is only responsible for padding / attention masks. This works for any
+    raw-waveform model (wav2vec2, HuBERT, WavLM, ...).
+    """
     feature_extractor = instantiate(config.feature_extractor,
                                     padding_value=0.0,
                                     do_normalize=True,
                                     return_attention_mask=False)
-    processor = transformers.Wav2Vec2Processor(
-        feature_extractor=feature_extractor, tokenizer=tokenizer)
-    return processor
+    return feature_extractor
