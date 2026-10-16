@@ -1,9 +1,9 @@
 defaults:
   - _self_
   - dataset: timit_syllables
-  - equivalence: phoneme
-  - base_model: w2v2_6
-  - model: rnn_8
+  - equivalence: word_broad_10frames_fixedlen25
+  - base_model: w2v2_8
+  - model: ffff_32
   - recognition_model: linear
 
   - override hydra/job_logging: colorlog
@@ -57,5 +57,3 @@ trainer:
     n_trials: 200
     scheduler:
       _target_: ray.tune.schedulers.ASHAScheduler
-    compute_objective:
-      _target_: src.train_decoder.compute_objective
