@@ -47,7 +47,9 @@ class HiddenStateWriter:
                 dtype=np.float32, chunks=(self.CHUNK_FRAMES, 1, hidden_size))
 
         self.num_frames = 0
-        self.flat_idxs: list[tuple[int, int]] = []
+        # compact (item index, frame index) arrays per batch; a flat list of Python
+        # tuples would take ~2 GB on train-clean-100
+        self.flat_idxs: list[np.ndarray] = []
         self.compression_ratios: dict[int, float] = {}
 
     def write(self, layer_states: dict[int, torch.Tensor],
@@ -64,7 +66,7 @@ class HiddenStateWriter:
             dset[self.num_frames:] = states.unsqueeze(1).float().numpy()
 
         self.num_frames += num_new
-        self.flat_idxs.extend(flat_idxs)
+        self.flat_idxs.append(np.array(flat_idxs, dtype=np.int32).reshape(-1, 2))
         self.compression_ratios.update(compression_ratios)
 
     def close(self, complete: bool = True):
@@ -76,11 +78,13 @@ class HiddenStateWriter:
             # need contiguous keys in compression_ratios
             assert set(self.compression_ratios.keys()) == set(range(len(self.compression_ratios)))
             compression_ratios = np.array([self.compression_ratios[idx] for idx in range(len(self.compression_ratios))])
+            flat_idxs = np.concatenate(self.flat_idxs) if self.flat_idxs else np.zeros((0, 2), dtype=np.int32)
+            assert len(flat_idxs) == self.num_frames
 
         for f in self.files.values():
             if complete:
                 f.create_dataset("compression_ratios", data=compression_ratios, dtype=np.float32)
-                f.create_dataset("flat_idxs", data=np.array(self.flat_idxs, dtype=np.int32))
+                f.create_dataset("flat_idxs", data=flat_idxs, dtype=np.int32)
             f.close()
 
 
@@ -127,6 +131,12 @@ def extract_hidden_states(dataset: datasets.Dataset,
 
         writer.write({layer: torch.cat(states, dim=0) for layer, states in layer_states.items()},
                      flat_idxs, compression_ratios)
+
+        # On Windows (WDDM), GPU memory held by PyTorch's caching allocator is charged
+        # against system commit; release it so it does not pin ~10 GB between batches.
+        del output
+        if model.device.type == "cuda":
+            torch.cuda.empty_cache()
 
     def extract_representations_pseudo_causal(item, idx, max_length=None, frame_counts=None):
         assert frame_counts is not None
