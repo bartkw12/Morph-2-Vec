@@ -181,7 +181,12 @@ class ContrastiveEmbeddingHingeObjective(nn.Module):
         loss = self.margin - pairwise_sim
         loss = F.relu(loss)
         if reduction == "mean":
-            loss = loss.mean()
+            if loss.numel() == 0:
+                # No in-batch negatives (e.g. a final eval batch of size 1). The mean of an
+                # empty tensor is NaN, which poisons eval_loss and breaks early stopping.
+                loss = embeddings.sum() * 0.0
+            else:
+                loss = loss.mean()
 
         ### Regularization
 
