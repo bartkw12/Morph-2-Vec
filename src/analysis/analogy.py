@@ -333,8 +333,9 @@ def run_experiment_equiv_level(
         include_idxs_in_predictions: Optional[dict[int, list[int]]] = None):
     print(experiment_name)
 
-    # move data to device
-    agg = torch.tensor(agg).to(device)
+    # move data to device. Compute in float32: consumer GPUs run float64 at 1/32-1/64
+    # of float32 throughput, which makes 768-dim runs take days.
+    agg = torch.tensor(agg, dtype=torch.float32).to(device)
     agg_src = torch.tensor(agg_src).to(device)
     
     results = []
