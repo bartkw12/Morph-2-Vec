@@ -1,0 +1,71 @@
+{
+  "written_by": "scripts/feasibility/02_export_compact_data.py",
+  "root": "I:\\Python\\CAS 784\\Morph-2-Vec",
+  "settings": {
+    "fc_canonical_id": true,
+    "notes": [
+      "`excluded` flags the authors' post-hoc VBZ exclusions (summary cells 17-18); nothing is dropped",
+      "vbd_trials: allomorph_* are the raw labels, allomorph_*_canon map AH D -> IH D",
+      "fc_trials: authors' filters of cells 120-132 applied; fc_canonical_id also counts AH D / AH Z spellings as the IH D / IH Z strong/weak homophones"
+    ]
+  },
+  "files": {
+    "results_word.parquet": {
+      "rows": 108060,
+      "columns": 23,
+      "bytes": 3318989,
+      "sources": [
+        "outputs\\analogy\\runs\\librispeech-train-clean-100\\w2v2_8\\ffff_32\\word_broad_10frames_fixedlen25\\librispeech-train-clean-100\\experiment_results.csv"
+      ]
+    },
+    "results_wav2vec.parquet": {
+      "rows": 108060,
+      "columns": 23,
+      "bytes": 3230326,
+      "sources": [
+        "outputs\\analogy\\runs_id\\librispeech-train-clean-100\\w2v2_8\\experiment_results.csv"
+      ]
+    },
+    "vbd_trials.parquet": {
+      "rows": 6000,
+      "columns": 30,
+      "bytes": 237560,
+      "sources": [
+        "outputs\\analogy\\runs\\librispeech-train-clean-100\\w2v2_8\\ffff_32\\word_broad_10frames_fixedlen25\\librispeech-train-clean-100\\experiment_results.csv",
+        "outputs\\analogy\\runs_id\\librispeech-train-clean-100\\w2v2_8\\experiment_results.csv",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\most_common_allomorphs.csv"
+      ]
+    },
+    "fc_trials.parquet": {
+      "rows": 24902,
+      "columns": 39,
+      "bytes": 796508,
+      "sources": [
+        "outputs\\analogy\\runs\\librispeech-train-clean-100\\w2v2_8\\ffff_32\\word_broad_10frames_fixedlen25\\librispeech-train-clean-100\\experiment_results.csv",
+        "outputs\\analogy\\runs_id\\librispeech-train-clean-100\\w2v2_8\\experiment_results.csv",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\all_cross_instances.parquet",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\inflection_instances.parquet",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\state_space_spec.h5"
+      ]
+    },
+    "pairs_vbd.parquet": {
+      "rows": 949,
+      "columns": 17,
+      "bytes": 61408,
+      "sources": [
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\inflection_results.parquet",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\inflection_instances.parquet",
+        "outputs\\analogy\\inputs\\librispeech-train-clean-100\\w2v2\\state_space_spec.h5"
+      ]
+    },
+    "trainer_log.csv": {
+      "rows": 400,
+      "columns": 5,
+      "bytes": 15425,
+      "sources": [
+        "outputs\\models\\librispeech-train-clean-100\\w2v2_8\\ffff_32\\word_broad_10frames_fixedlen25\\checkpoint-3800\\trainer_state.json"
+      ]
+    }
+  },
+  "total_bytes": 7660216
+}

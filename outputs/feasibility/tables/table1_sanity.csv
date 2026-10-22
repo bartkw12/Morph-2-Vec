@@ -1,0 +1,8 @@
+quantity,ours,paper
+Audio (train-clean-100),"100.49 h, 28,538 utterances",100 h
+Frames (20 ms),"18,087,600",—
+Word tokens in the analogy universe (≤ 100 per type),"334,008 (32,046 types)","334,008"
+Unambiguous nouns / verbs (regular inflection),776 / 59 (53 verbs after the authors' exclusions),753 / 52 (after manual exclusion)
+Probe,"linear 768 → 32, 24,576 weights + 32 biases",same
+Probe hyperparameters,"margin 0.3759, lr 1.08e-3, weight decay 6.07e-3",Table 9: same
+Probe eval mAP at the best checkpoint,0.832 (step 3200),not reported
