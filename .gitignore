@@ -8,7 +8,9 @@ __pycache__
 .ipynb_checkpoints
 *.h5
 out
-outputs
+outputs/*
+!outputs/feasibility
+!outputs/feasibility/**
 .snakemake
 *.log
 *.pkl
