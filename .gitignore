@@ -22,3 +22,6 @@ outputs
 202*.ipynb
 # transient dirs
 2024*
+
+# guides
+feasibility_demo_plan.md
