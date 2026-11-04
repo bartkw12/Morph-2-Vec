@@ -8,7 +8,7 @@ As the course requires, this log records our meetings, who was present, and what
 
 | Date | Present | Agenda / decisions | Action items (who) |
 |---|---|---|---|
-| YYYY-MM-DD | | | |
+| 2026-11-02 (Mon) | *(Bart to fill)* | Midpoint lab meeting (Milestone 5): split of the presentation. Decisions: *(Bart to fill)* | Bart: current evidence (past-tense results), obstacles and one advice decision for his part; Tanya: alternative probe loss functions; Nigel: to be confirmed |
 | | | | |
 
 ## Work between meetings
@@ -22,5 +22,6 @@ As the course requires, this log records our meetings, who was present, and what
 | 2026-10-17 → 18 | Bart | Main reproduction run, layer 8. Found and fixed the NaN eval-loss bug (#7), float64 analogy slowness (#8) and analogy-notebook memory/resume (#9) | §9 runs 4–6; commits `bab1d12`, `e9864e1`, `4e765e4` |
 | 2026-10-18 | Bart | Results summary script; reproduction of Figs. 3–5; Project_Feasibility.md write-up | `scripts/summarize_analogy_results.py`; Project_Feasibility.md §10–13 |
 | 2026-10-21 → 22 | Bart | Feasibility demo (Milestone 3):<br>• checks and inventory, including the ɪd label check;<br>• compact data export;<br>• annotation materials for the theory work (`outputs/feasibility/theory/`);<br>• feasibility notebook: reproduction figures, baselines and the past-tense pilot;<br>• README.<br>AI coding assistant (Claude Code) used for the code and drafts, reviewed by Bart. | `scripts/feasibility/`, `notebooks/feasibility/feasibility_demo.ipynb`, `README.md` |
+| 2026-11-04 | Bart | Midpoint past-tense run (Milestone 5):<br>• automatic verb classes (regular, semi-regular, devoicing, vowel change, suppletive);<br>• new analogy run: does the regular step transfer to each irregular class? (probe and raw wav2vec, 20 experiments);<br>• summaries, slide figures, zero-offset control, verified obstacle numbers;<br>• suggested annotations for the 151 non-regular pairs.<br>AI coding assistant (Claude Code) used for the code and drafts, reviewed by Bart. | `scripts/past_tense/`, `notebooks/past_tense/run_past_tense.ipynb`, `outputs/past_tense/MIDPOINT_RESULTS.md`; branch `midpoint-past-tense` |
 | | Tanya | | |
 | | Nigel | | |
