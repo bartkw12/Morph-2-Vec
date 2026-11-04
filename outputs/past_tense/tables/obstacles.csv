@@ -1,0 +1,30 @@
+obstacle,item,value,n,source
+1. labels matter as much as the model,[ɪd] verbs whose most common ending is AH D (missed by the authors' IH D-only code),64 of 230 (28%),230 [ɪd] verbs,outputs/analogy/inputs/librispeech-train-clean-100/w2v2/most_common_allomorphs.csv
+1. labels matter as much as the model,[ɪd] tokens of regular past forms spelled AH D,"2,102 of 6,066 (35%)","26,420 regular past tokens",outputs/analogy/inputs/librispeech-train-clean-100/w2v2/inflection_instances.parquet
+1. labels matter as much as the model,"Word: regular-past mean rank, pipeline 'regular' flag -> auto-class regular only",87.3 -> 5.1,960 -> 886 trials,outputs/feasibility/data/vbd_trials.parquet
+1. labels matter as much as the model,Word: share of the total rank carried by the worst 1% of regular-past trials,96%,worst 10 of 960 trials,outputs/feasibility/data/vbd_trials.parquet
+1. labels matter as much as the model,"Wav2Vec: regular-past mean rank, pipeline 'regular' flag -> auto-class regular only",52.3 -> 7.1,960 -> 886 trials,outputs/feasibility/data/vbd_trials.parquet
+1. labels matter as much as the model,Wav2Vec: share of the total rank carried by the worst 1% of regular-past trials,95%,worst 10 of 960 trials,outputs/feasibility/data/vbd_trials.parquet
+1. labels matter as much as the model,"Word: the worst regular-past trials (target past, rank)","bathed 38,857; bathed 30,422; dealt 6,509; peeped 982; nosed 829; dealt 789; drummed 688; meant 515",8 trials,outputs/feasibility/data/vbd_trials.parquet
+2. no hand classification of the verbs,pairs with any manual annotation,0 of 949,,outputs/feasibility/theory/vbd_pairs_for_annotation.xlsx
+2. no hand classification of the verbs,class size: regular,787 pairs used / 787 base verbs,798 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: semi-regular,19 pairs used / 19 base verbs,21 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: devoicing,5 pairs used / 5 base verbs,5 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: vowel change,71 pairs used / 71 base verbs,72 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: suppletive,3 pairs used / 2 base verbs,3 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: excluded: auto_class 'check',0 pairs used / 0 base verbs,50 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: excluded: authors' list (other classes),0 pairs used / 0 base verbs,14 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,class size: total,885 pairs used / 884 base verbs,949 before exclusions,outputs/past_tense/tables/class_counts.csv
+2. no hand classification of the verbs,pairs needing a human check (all non-regular plus 'check'),151,,outputs/feasibility/data/pairs_vbd.parquet
+3. compute on one machine,"layer-8 hidden states, train-clean-100",51.9 GiB (55.7 GB),one layer,outputs/hidden_states/w2v2_8/librispeech-train-clean-100.h5
+3. compute on one machine,"per extra layer (extract, train, embed, two analogy runs)",about 3.5 h,,CAS784/Project_Feasibility/Project_Feasibility.md §9
+3. compute on one machine,out-of-memory failures in the original runs,"preprocessing (run 3), hidden-state extraction at 61% (run 3), raw-wav2vec analogy paged to disk at 17 GB (run 5: 49/120 experiments in 10.5 h); editor and NVIDIA service crashed when memory ran out",,"CAS784/Project_Feasibility/Project_Feasibility.md §9, §14"
+3. compute on one machine,run_pipeline traps,analogy notebook resumes partial results by position; the runner skips a stage whose experiment_results.csv exists,,notebooks/analogy/run.ipynb cell 26; scripts/run_pipeline.py run_stage
+3. compute on one machine,"this run, Word: experiment loop",12.1 min,"18,152 trials, 20 experiments",outputs/past_tense/runs/word/experiment_timings.csv
+3. compute on one machine,"this run, Wav2Vec: experiment loop",15.3 min,"18,152 trials, 20 experiments",outputs/past_tense/runs/wav2vec/experiment_timings.csv
+3. compute on one machine,this run: wall-clock times per command,see run_log.md,,outputs/past_tense/run_log.md
+4. statistics,probe seeds / layers analysed,1 seed / 1 layer (8),,outputs/models (one ffff_32 run)
+4. statistics,"Wav2Vec: lenient (homophone) minus strict top-1, regular -> each class",max +0.004 (reg_to_devoicing); mean +0.001,5 experiments,outputs/past_tense/tables/t1_transfer_summary.csv
+4. statistics,"Wav2Vec: median rank vs mean rank, regular -> vowel change","median 37, mean 857",,outputs/past_tense/tables/t1_transfer_summary.csv
+4. statistics,"Word: lenient (homophone) minus strict top-1, regular -> each class",max +0.003 (reg_to_reg); mean +0.001,5 experiments,outputs/past_tense/tables/t1_transfer_summary.csv
+4. statistics,"Word: median rank vs mean rank, regular -> vowel change","median 36, mean 375",,outputs/past_tense/tables/t1_transfer_summary.csv

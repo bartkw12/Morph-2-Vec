@@ -1,0 +1,152 @@
+﻿base,past,auto_class,auto_reason,authors_excluded,base_pron,past_pron,past_homophones,past_tokens,past_corpus_count,suggested_class,sound_change_family,suggested_exclude,reason,suggested_by
+admire,admired,check,"regular spelling, but the ending is 'AH D M AY ER D' where the rule predicts 'D'",False,AE D M AY R,AH D M AY ER D,,28,28,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+arise,arose,irregular_unclassified,,False,ER AY Z,ER OW Z,,68,68,ablaut,write-wrote,,AY -> OW,AI coding assistant; to be checked by a person
+awake,awoke,irregular_unclassified,,False,AH W EY K,AH W OW K,,28,28,ablaut,break-broke,,EY -> OW,AI coding assistant; to be checked by a person
+bath,bathed,check,"regular spelling, but the ending is 'EY DH D' where the rule predicts 'T'",False,B AE TH,B EY DH D,,14,14,exclude,,yes,"'bathed' is the past of 'bathe' [beɪð], not of 'bath'",AI coding assistant; to be checked by a person
+be,was,suppletive,different root,False,B IY,W AH Z,,100,13262,suppletive,be-was,,different root,AI coding assistant; to be checked by a person
+be,were,suppletive,different root,False,B IY,W ER,we're,100,4307,suppletive,be-was,,different root; ~ we're,AI coding assistant; to be checked by a person
+bear,bore,irregular_unclassified,,False,B EH R,B AO R,boar,73,73,ablaut,bear-bore,,EH R -> AO R; 'bear' and 'bore' are also other words; ~ boar,AI coding assistant; to be checked by a person
+become,became,irregular_unclassified,,False,B IH K AH M,B IY K EY M,,100,303,ablaut,come-came,,AH -> EY,AI coding assistant; to be checked by a person
+begin,began,irregular_unclassified,,False,B IH G IH N,B IY G AE N,,100,523,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+behold,beheld,irregular_unclassified,,False,B IH HH OW L D,B IH HH EH L D,,49,49,ablaut,hold-held,,OW -> EH,AI coding assistant; to be checked by a person
+bend,bent,devoicing,final D becomes T,False,B EH N D,B EH N T,,59,59,devoicing,send-sent,,final D -> T,AI coding assistant; to be checked by a person
+bid,bade,irregular_unclassified,,False,B IH D,B EY D,baid bayed,43,43,ablaut,give-gave,,IH -> EY,AI coding assistant; to be checked by a person
+bind,bound,irregular_unclassified,,False,B AY N D,B AW N D,,95,95,ablaut,find-found,,AY -> AW; 'bound' is also an adjective ('bound to'),AI coding assistant; to be checked by a person
+bite,bit,irregular_unclassified,,False,B AY T,B IH T,,100,116,exclude,,yes,"'bit' is mostly the noun ('a bit'); otherwise ablaut, bite-bit",AI coding assistant; to be checked by a person
+blow,blew,irregular_unclassified,,False,B L OW,B L UW,bleu blue,26,26,ablaut,know-knew,,OW -> UW; ~ blue,AI coding assistant; to be checked by a person
+break,broke,irregular_unclassified,,False,B R EY K,B R OW K,,100,127,ablaut,break-broke,,EY -> OW; 'broke' is also an adjective,AI coding assistant; to be checked by a person
+breed,bred,irregular_unclassified,,False,B R IY D,B R EH D,bread,21,21,ablaut,meet-met,,IY -> EH; ~ bread,AI coding assistant; to be checked by a person
+bring,brought,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,B R IH NG,B R AO T,,100,387,semi_regular,bring-brought,,rhyme replaced by -ought [ɔt]; 'other' is also defensible,AI coding assistant; to be checked by a person
+build,built,devoicing,final D becomes T,False,B IH L D,B IH L T,,95,95,devoicing,send-sent,,final D -> T,AI coding assistant; to be checked by a person
+burn,burned,check,base has more than one past form,False,B ER N,B ER N D,,37,37,regular_d,,,regular; the base also has 'burnt',AI coding assistant; to be checked by a person
+burn,burnt,check,base has more than one past form,False,B ER N,B ER N T,,7,7,other,burn-burnt,,"adds [t] after a voiced consonant, no vowel change",AI coding assistant; to be checked by a person
+buy,bought,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,B AY,B AA T,,65,65,semi_regular,bring-brought,,rhyme replaced by -ought [ɔt],AI coding assistant; to be checked by a person
+can,could,check,modal; past use is marginal,False,K AH N,K UH D,,100,2147,exclude,,yes,modal; past use is marginal,AI coding assistant; to be checked by a person
+catch,caught,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,K AE CH,K AA T,cot,100,169,semi_regular,bring-brought,,rhyme replaced by -aught [ɔt]; 'other' is also defensible; ~ cot,AI coding assistant; to be checked by a person
+choose,chose,irregular_unclassified,,False,CH UW Z,CH OW Z,,31,31,ablaut,choose-chose,,UW -> OW,AI coding assistant; to be checked by a person
+cling,clung,irregular_unclassified,,False,K L IH NG,K L AH NG,,16,16,ablaut,cling-clung,,IH -> AH,AI coding assistant; to be checked by a person
+close,closed,check,"regular spelling, but the ending is 'D' where the rule predicts 'T'",False,K L OW S,K L OW Z D,,100,124,regular_d,,,regular; the base pronunciation is the adjective 'close' [kloʊs],AI coding assistant; to be checked by a person
+come,came,irregular_unclassified,,False,K AH M,K EY M,,100,1214,ablaut,come-came,,AH -> EY,AI coding assistant; to be checked by a person
+comprehend,comprehended,check,"regular spelling, but the ending is 'IH HH EH N D IH D' where the rule predicts 'IH D'",False,K AA M P R IY HH EH N D,K AA M P R IH HH EH N D IH D,,7,7,regular_id,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+creep,crept,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,K R IY P,K R EH P T,,32,32,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+crook,crooked,check,"regular spelling, but the ending is 'IH D' where the rule predicts 'T'",False,K R UH K,K R UH K AH D,,14,14,exclude,,yes,'crooked' is the adjective,AI coding assistant; to be checked by a person
+crow,crew,irregular_unclassified,,False,K R OW,K R UW,,38,38,exclude,,yes,'crew' is almost always the noun; crow -> crew is archaic,AI coding assistant; to be checked by a person
+deal,dealt,check,"pipeline calls this regular, but it is a base+t spelling",False,D IY L,D EH L T,,9,9,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+dig,dug,irregular_unclassified,,False,D IH G,D AH G,,18,18,ablaut,cling-clung,,IH -> AH,AI coding assistant; to be checked by a person
+dive,dove,irregular_unclassified,,False,D AY V,D AH V,,6,6,exclude,,yes,"the aligner's [dʌv] is the bird 'dove', not the past [doʊv]",AI coding assistant; to be checked by a person
+do,did,semi_regular_candidate,"past adds a final t/d, plus a stem change",True,D UW,D IH D,,100,1675,other,do-did,,UW -> IH plus [d]; authors excluded,AI coding assistant; to be checked by a person
+draw,drew,irregular_unclassified,,False,D R AO,D R UW,,100,135,ablaut,draw-drew,,AO -> UW,AI coding assistant; to be checked by a person
+dream,dreamed,check,base has more than one past form,True,D R IY M,D R IY M D,,26,26,regular_d,,,regular; authors excluded (two pasts),AI coding assistant; to be checked by a person
+dream,dreamt,check,base has more than one past form,True,D R IY M,D R EH M T,,8,8,semi_regular,keep-kept,,IY -> EH plus [t]; authors excluded,AI coding assistant; to be checked by a person
+drink,drank,irregular_unclassified,,False,D R IH NG K,D R AE NG K,,26,26,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+drive,drove,irregular_unclassified,,False,D R AY V,D R OW V,,72,72,ablaut,write-wrote,,AY -> OW,AI coding assistant; to be checked by a person
+dwell,dwelt,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,D W EH L,D W EH L T,,21,21,other,burn-burnt,,"adds [t] after a voiced consonant, no vowel change",AI coding assistant; to be checked by a person
+eat,ate,irregular_unclassified,,False,IY T,EY T,eight,57,57,ablaut,eat-ate,,IY -> EY; ~ eight,AI coding assistant; to be checked by a person
+esteem,esteemed,check,"regular spelling, but the ending is 'IH S T IY M D' where the rule predicts 'D'",False,AH S T IY M,IH S T IY M D,esteem'd,9,9,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+examine,examined,check,"regular spelling, but the ending is 'AH N D' where the rule predicts 'D'",False,IH G Z AE M IH N,IH G Z AE M AH N D,,46,46,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+fall,fell,irregular_unclassified,,False,F AO L,F EH L,,100,283,ablaut,fall-fell,,AO -> EH,AI coding assistant; to be checked by a person
+feed,fed,irregular_unclassified,,False,F IY D,F EH D,,39,39,ablaut,meet-met,,IY -> EH,AI coding assistant; to be checked by a person
+feel,felt,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,F IY L,F EH L T,,100,474,semi_regular,keep-kept,,IY -> EH plus [t]; 'felt' is also the fabric,AI coding assistant; to be checked by a person
+fight,fought,irregular_unclassified,,False,F AY T,F AO T,,53,53,ablaut,fight-fought,,"AY -> AO; spelled like the -ought verbs, but nothing is added",AI coding assistant; to be checked by a person
+find,found,irregular_unclassified,,False,F AY N D,F AW N D,,100,756,ablaut,find-found,,AY -> AW,AI coding assistant; to be checked by a person
+flee,fled,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,F L IY,F L EH D,,54,54,semi_regular,flee-fled,,IY -> EH plus [d],AI coding assistant; to be checked by a person
+fly,flew,irregular_unclassified,,False,F L AY,F L UW,,78,78,ablaut,fly-flew,,AY -> UW,AI coding assistant; to be checked by a person
+forget,forgot,irregular_unclassified,,False,F ER G EH T,F ER G AA T,,53,53,ablaut,get-got,,EH -> AA,AI coding assistant; to be checked by a person
+fortify,fortified,check,"regular spelling, but the ending is 'AH F AY D' where the rule predicts 'D'",False,F AO R T IH F AY,F AO R T AH F AY D,,9,9,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+get,got,irregular_unclassified,,False,G EH T,G AA T,,100,496,ablaut,get-got,,EH -> AA,AI coding assistant; to be checked by a person
+give,gave,irregular_unclassified,,False,G IH V,G EY V,,100,426,ablaut,give-gave,,IH -> EY,AI coding assistant; to be checked by a person
+go,went,suppletive,different root,False,G OW,W EH N T,,100,953,suppletive,go-went,,different root,AI coding assistant; to be checked by a person
+grow,grew,irregular_unclassified,,False,G R OW,G R UW,,100,169,ablaut,know-knew,,OW -> UW,AI coding assistant; to be checked by a person
+hang,hanged,check,base has more than one past form,False,HH AE NG,HH AE NG D,,14,14,regular_d,,,regular (the execution sense),AI coding assistant; to be checked by a person
+hang,hung,check,base has more than one past form,False,HH AE NG,HH AH NG,,96,96,ablaut,cling-clung,,AE -> AH; 'hanged' is the execution sense,AI coding assistant; to be checked by a person
+have,had,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,HH AE V,HH AE D,,100,8331,other,have-had,,final V replaced by [d],AI coding assistant; to be checked by a person
+hear,heard,check,"regular spelling, but the ending is 'ER D' where the rule predicts 'D'",False,HH IY R,HH ER D,herd hurd,100,625,semi_regular,hear-heard,,IY R -> ER plus [d]; ~ herd,AI coding assistant; to be checked by a person
+hesitate,hesitated,check,"regular spelling, but the ending is 'IH T EY T IH D' where the rule predicts 'IH D'",False,HH EH Z AH T EY T,HH EH Z IH T EY T IH D,,38,38,regular_id,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+hide,hid,irregular_unclassified,,True,HH AY D,HH IH D,,34,34,ablaut,bite-bit,,AY -> IH; authors excluded,AI coding assistant; to be checked by a person
+hold,held,irregular_unclassified,,False,HH OW L D,HH EH L D,,100,287,ablaut,hold-held,,OW -> EH,AI coding assistant; to be checked by a person
+inquire,inquired,check,"regular spelling, but the ending is 'ER D' where the rule predicts 'D'",False,IH N K W AY R,IH N K W AY ER D,,56,56,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+keep,kept,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,K IY P,K EH P T,,100,270,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+know,knew,irregular_unclassified,,False,N OW,N UW,new,100,542,ablaut,know-knew,,OW -> UW; ~ new,AI coding assistant; to be checked by a person
+lay,laid,check,"pipeline calls this regular, but it is ay -> aid",False,L EY,L EY D,lay'd,100,143,regular_d,,,phonologically regular (lay + [d]); only the spelling is irregular,AI coding assistant; to be checked by a person
+lead,led,irregular_unclassified,,False,L IY D,L EH D,,100,188,ablaut,meet-met,,IY -> EH,AI coding assistant; to be checked by a person
+leap,leapt,check,"pipeline calls this regular, but it is a base+t spelling",True,L IY P,L EH P T,,8,8,semi_regular,keep-kept,,IY -> EH plus [t]; authors excluded,AI coding assistant; to be checked by a person
+learn,learned,check,base has more than one past form,False,L ER N,L ER N D,,100,114,regular_d,,,regular; the base also has 'learnt',AI coding assistant; to be checked by a person
+learn,learnt,check,base has more than one past form,False,L ER N,L ER N T,,21,21,other,burn-burnt,,"adds [t] after a voiced consonant, no vowel change",AI coding assistant; to be checked by a person
+leave,left,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,L IY V,L EH F T,,100,688,semi_regular,leave-left,,"IY -> EH, V -> F, plus [t]; 'left' is also the direction (homograph)",AI coding assistant; to be checked by a person
+lend,lent,devoicing,final D becomes T,False,L EH N D,L EH N T,,12,12,devoicing,send-sent,,final D -> T,AI coding assistant; to be checked by a person
+lie,lay,check,'lay' is also another word,False,L AY,L EY,les,100,359,exclude,,yes,'lay' is also the present of 'lay',AI coding assistant; to be checked by a person
+light,lighted,check,base has more than one past form,False,L AY T,L AY T IH D,,50,50,regular_id,,,regular; the base also has 'lit',AI coding assistant; to be checked by a person
+light,lit,check,base has more than one past form,False,L AY T,L IH T,,24,24,ablaut,bite-bit,,AY -> IH,AI coding assistant; to be checked by a person
+limit,limited,check,"regular spelling, but the ending is 'IH T IH D' where the rule predicts 'IH D'",False,L IH M AH T,L IH M IH T IH D,,23,23,regular_id,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+lose,lost,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,L UW Z,L AO S T,,100,248,semi_regular,lose-lost,,"UW -> AO, Z -> S, plus [t]",AI coding assistant; to be checked by a person
+make,made,semi_regular_candidate,"past adds a final t/d, plus a stem change",True,M EY K,M EY D,maid,100,1370,other,make-made,,final K replaced by [d]; authors excluded; ~ maid,AI coding assistant; to be checked by a person
+mature,matured,check,"regular spelling, but the ending is 'T Y UH R D' where the rule predicts 'D'",False,M AH CH UH R,M AH T Y UH R D,,6,6,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+may,might,check,modal; past use is marginal,False,M EY,M AY T,mite,100,944,exclude,,yes,modal; past use is marginal; ~ mite,AI coding assistant; to be checked by a person
+mean,meant,check,"pipeline calls this regular, but it is a base+t spelling",False,M IY N,M EH N T,ment,100,123,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+meet,met,irregular_unclassified,,False,M IY T,M EH T,,100,220,ablaut,meet-met,,IY -> EH; the final T belongs to the base,AI coding assistant; to be checked by a person
+merit,merited,check,"regular spelling, but the ending is 'IH T IH D' where the rule predicts 'IH D'",False,M EH R AH T,M EH R IH T IH D,,6,6,regular_id,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+mistake,mistook,irregular_unclassified,,False,M IH S T EY K,M IH S T UH K,,12,12,ablaut,take-took,,EY -> UH,AI coding assistant; to be checked by a person
+misunderstand,misunderstood,irregular_unclassified,,False,M IH S AH N D ER S T AE N D,M IH S AH N D ER S T UH D,,10,10,ablaut,stand-stood,,AE N D -> UH D (the N is lost),AI coding assistant; to be checked by a person
+ornament,ornamented,check,"regular spelling, but the ending is 'EH N T IH D' where the rule predicts 'IH D'",False,AO R N AH M AH N T,AO R N AH M EH N T IH D,,11,11,regular_id,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+overcome,overcame,irregular_unclassified,,False,OW V ER K AH M,OW V ER K EY M,,9,9,ablaut,come-came,,AH -> EY,AI coding assistant; to be checked by a person
+overtake,overtook,irregular_unclassified,,False,OW V ER T EY K,OW V ER T UH K,,9,9,ablaut,take-took,,EY -> UH,AI coding assistant; to be checked by a person
+pay,paid,check,"pipeline calls this regular, but it is ay -> aid",False,P EY,P EY D,payed,95,95,regular_d,,,phonologically regular (pay + [d]); only the spelling is irregular,AI coding assistant; to be checked by a person
+practice,practiced,check,"regular spelling, but the ending is 'AY Z D' where the rule predicts 'T'",False,P R AE K T AH S,P R AE K T AY Z D,,22,22,regular_t,,,"regular; the aligner's past pronunciation [præktaɪzd] looks wrong, please check",AI coding assistant; to be checked by a person
+rag,ragged,check,"regular spelling, but the ending is 'IH D' where the rule predicts 'D'",False,R AE G,R AE G AH D,,14,14,exclude,,yes,'ragged' is the adjective,AI coding assistant; to be checked by a person
+refresh,refreshed,check,"regular spelling, but the ending is 'IY F R EH SH T' where the rule predicts 'T'",False,R IH F R EH SH,R IY F R EH SH T,,14,14,regular_t,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+regain,regained,check,"regular spelling, but the ending is 'IY G EY N D' where the rule predicts 'D'",False,R IH G EY N,R IY G EY N D,,10,10,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+require,required,check,"regular spelling, but the ending is 'ER D' where the rule predicts 'D'",False,R IH K W AY ER,R IY K W AY ER D,,77,77,regular_d,,,regular; the vowel difference is an aligner variant,AI coding assistant; to be checked by a person
+ride,rode,irregular_unclassified,,False,R AY D,R OW D,rhode road rowed,58,58,ablaut,write-wrote,,"AY -> OW; ~ road, rowed",AI coding assistant; to be checked by a person
+ring,rang,irregular_unclassified,,False,R IH NG,R AE NG,,37,37,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+rise,rose,check,'rose' is also another word,False,R AY Z,R OW Z,rows,100,229,exclude,,yes,'rose' is also the flower; ~ rows,AI coding assistant; to be checked by a person
+rouse,roused,check,"regular spelling, but the ending is 'D' where the rule predicts 'T'",False,R AW S,R AW Z D,,28,28,regular_d,,,"regular; base pronounced with [s], past with [z]",AI coding assistant; to be checked by a person
+run,ran,irregular_unclassified,,False,R AH N,R AE N,,100,183,ablaut,run-ran,,AH -> AE,AI coding assistant; to be checked by a person
+say,said,check,"pipeline calls this regular, but it is ay -> aid",False,S EY,S EH D,,100,3862,semi_regular,flee-fled,,EY -> EH plus [d],AI coding assistant; to be checked by a person
+see,saw,irregular_unclassified,,False,S IY,S AO,,100,717,ablaut,see-saw,,IY -> AO; 'saw' is also the tool,AI coding assistant; to be checked by a person
+seek,sought,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,S IY K,S AO T,sot,66,66,semi_regular,bring-brought,,rhyme replaced by -ought [ɔt]; ~ sot,AI coding assistant; to be checked by a person
+sell,sold,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,S EH L,S OW L D,,65,65,semi_regular,tell-told,,EH -> OW plus [d],AI coding assistant; to be checked by a person
+send,sent,devoicing,final D becomes T,False,S EH N D,S EH N T,cent scent,100,296,devoicing,send-sent,,"final D -> T; ~ cent, scent",AI coding assistant; to be checked by a person
+shake,shook,irregular_unclassified,,False,SH EY K,SH UH K,,100,107,ablaut,take-took,,EY -> UH,AI coding assistant; to be checked by a person
+shall,should,check,modal; past use is marginal,False,SH AE L,SH UH D,,100,1187,exclude,,yes,modal; past use is marginal,AI coding assistant; to be checked by a person
+shine,shone,irregular_unclassified,,False,SH AY N,SH OW N,shown,47,47,ablaut,write-wrote,,AY -> OW; ~ shown,AI coding assistant; to be checked by a person
+shoot,shot,irregular_unclassified,,False,SH UW T,SH AA T,,100,105,ablaut,shoot-shot,,UW -> AA; 'shot' is also a noun,AI coding assistant; to be checked by a person
+shrink,shrank,irregular_unclassified,,False,SH R IH NG K,SH R AE NG K,,13,13,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+sing,sang,irregular_unclassified,,False,S IH NG,S AE NG,,42,42,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+sink,sank,irregular_unclassified,,False,S IH NG K,S AE NG K,,47,47,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+sit,sat,irregular_unclassified,,False,S IH T,S AE T,,100,331,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+slay,slew,irregular_unclassified,,False,S L EY,S L UW,,10,10,ablaut,slay-slew,,EY -> UW; 'slew' is also a noun,AI coding assistant; to be checked by a person
+sleep,slept,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,S L IY P,S L EH P T,,65,65,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+slide,slid,irregular_unclassified,,False,S L AY D,S L IH D,,10,10,ablaut,bite-bit,,AY -> IH,AI coding assistant; to be checked by a person
+speak,spoke,irregular_unclassified,,False,S P IY K,S P OW K,,100,196,ablaut,speak-spoke,,IY -> OW; 'spoke' is also a noun,AI coding assistant; to be checked by a person
+speed,sped,irregular_unclassified,,False,S P IY D,S P EH D,,14,14,ablaut,meet-met,,IY -> EH,AI coding assistant; to be checked by a person
+spend,spent,devoicing,final D becomes T,False,S P EH N D,S P EH N T,,100,118,devoicing,send-sent,,final D -> T,AI coding assistant; to be checked by a person
+spoil,spoiled,check,base has more than one past form,False,S P OY L,S P OY L D,,13,13,regular_d,,,regular; the base also has 'spoilt',AI coding assistant; to be checked by a person
+spoil,spoilt,check,base has more than one past form,False,S P OY L,S P OY L T,,8,8,other,burn-burnt,,"adds [t] after a voiced consonant, no vowel change",AI coding assistant; to be checked by a person
+spring,sprang,check,base has more than one past form,False,S P R IH NG,S P R AE NG,,70,70,ablaut,sing-sang,,IH -> AE; the base also has 'sprung',AI coding assistant; to be checked by a person
+spring,sprung,check,base has more than one past form,False,S P R IH NG,S P R AH NG,,8,8,exclude,,yes,"the participle, not the simple past",AI coding assistant; to be checked by a person
+stand,stood,irregular_unclassified,,False,S T AE N D,S T UH D,,100,392,ablaut,stand-stood,,AE N D -> UH D (the N is lost),AI coding assistant; to be checked by a person
+steal,stole,irregular_unclassified,,False,S T IY L,S T OW L,,21,21,ablaut,speak-spoke,,IY -> OW; 'stole' is also a noun,AI coding assistant; to be checked by a person
+stick,stuck,irregular_unclassified,,False,S T IH K,S T AH K,,29,29,ablaut,cling-clung,,IH -> AH; 'stuck' is also an adjective,AI coding assistant; to be checked by a person
+strike,struck,irregular_unclassified,,False,S T R AY K,S T R AH K,,100,183,ablaut,strike-struck,,AY -> AH,AI coding assistant; to be checked by a person
+swear,swore,irregular_unclassified,,False,S W EH R,S W AO R,,22,22,ablaut,bear-bore,,EH R -> AO R,AI coding assistant; to be checked by a person
+sweep,swept,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,S W IY P,S W EH P T,,49,49,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+swim,swam,irregular_unclassified,,False,S W IH M,S W AE M,,18,18,ablaut,sing-sang,,IH -> AE,AI coding assistant; to be checked by a person
+swing,swung,irregular_unclassified,,False,S W IH NG,S W AH NG,,29,29,ablaut,cling-clung,,IH -> AH,AI coding assistant; to be checked by a person
+take,took,irregular_unclassified,,False,T EY K,T UH K,tooke,100,668,ablaut,take-took,,EY -> UH,AI coding assistant; to be checked by a person
+teach,taught,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,T IY CH,T AO T,,60,60,semi_regular,bring-brought,,rhyme replaced by -aught [ɔt],AI coding assistant; to be checked by a person
+tear,tore,irregular_unclassified,,False,T EH R,T AO R,,25,25,ablaut,bear-bore,,EH R -> AO R,AI coding assistant; to be checked by a person
+tell,told,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,T EH L,T OW L D,tolled,100,638,semi_regular,tell-told,,EH -> OW plus [d]; ~ tolled,AI coding assistant; to be checked by a person
+think,thought,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,TH IH NG K,TH AO T,,100,879,semi_regular,bring-brought,,rhyme replaced by -ought [ɔt]; 'thought' is also a noun,AI coding assistant; to be checked by a person
+throw,threw,irregular_unclassified,,False,TH R OW,TH R UW,through,96,96,ablaut,know-knew,,OW -> UW; ~ through,AI coding assistant; to be checked by a person
+understand,understood,irregular_unclassified,,False,AH N D ER S T AE N D,AH N D ER S T UH D,,100,119,ablaut,stand-stood,,AE N D -> UH D (the N is lost),AI coding assistant; to be checked by a person
+undertake,undertook,irregular_unclassified,,False,AH N D ER T EY K,AH N D ER T UH K,,6,6,ablaut,take-took,,EY -> UH,AI coding assistant; to be checked by a person
+use,used,check,"regular spelling, but the ending is 'D' where the rule predicts 'T'",False,Y UW S,Y UW Z D,,100,251,regular_d,,,regular; the base pronunciation is the noun 'use' [juːs] (verb [juːz]); 'used to' is common,AI coding assistant; to be checked by a person
+wake,woke,irregular_unclassified,,False,W EY K,W OW K,,9,9,ablaut,break-broke,,EY -> OW,AI coding assistant; to be checked by a person
+wear,wore,irregular_unclassified,,False,W EH R,W AO R,war whar,86,86,ablaut,bear-bore,,EH R -> AO R; ~ war,AI coding assistant; to be checked by a person
+weep,wept,semi_regular_candidate,"past adds a final t/d, plus a stem change",False,W IY P,W EH P T,,34,34,semi_regular,keep-kept,,IY -> EH plus [t],AI coding assistant; to be checked by a person
+wick,wicked,check,"regular spelling, but the ending is 'IH D' where the rule predicts 'T'",False,W IH K,W IH K AH D,,47,47,exclude,,yes,"'wicked' is the adjective, not a past of 'wick'",AI coding assistant; to be checked by a person
+will,would,check,modal; past use is marginal,False,W AH L,W UH D,wood,100,2815,exclude,,yes,modal; past use is marginal; ~ wood,AI coding assistant; to be checked by a person
+win,won,irregular_unclassified,,False,W IH N,W AH N,one,52,52,ablaut,cling-clung,,IH -> AH; ~ one,AI coding assistant; to be checked by a person
+wind,wound,check,'wound' is also another word,False,W IH N D,W UW N D,,63,63,exclude,,yes,'wound' is also the injury,AI coding assistant; to be checked by a person
+withdraw,withdrew,irregular_unclassified,,False,W IH TH D R AO,W IH TH D R UW,,31,31,ablaut,draw-drew,,AO -> UW,AI coding assistant; to be checked by a person
+write,wrote,irregular_unclassified,,False,R AY T,R OW T,,82,82,ablaut,write-wrote,,AY -> OW,AI coding assistant; to be checked by a person
