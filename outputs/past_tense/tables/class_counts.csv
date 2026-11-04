@@ -1,0 +1,12 @@
+class,examples,pairs_auto_class,pairs_used,base_verbs_used,base_tokens_used,past_tokens_used,past_corpus_count_used,note
+regular,"walked, played",798,787,787,30245,24675,30822,"Verb classes are automatic (common.auto_class), not hand-checked. Tokens are those in the analogy set (at most 100 per word); corpus counts are all of train-clean-100."
+  regular [t],,160,158,158,6294,5208,7024,
+  regular [d],,415,415,415,15688,13696,17716,
+  regular [ɪd],,223,214,214,8263,5771,6082,
+semi-regular,"kept, felt, told",21,19,19,1296,1411,12595,
+devoicing,"sent, built",5,5,5,210,366,580,
+vowel change,"sang, took, came",72,71,71,3975,4214,10500,
+suppletive,"went, was",3,3,2,300,300,18522,
+excluded: auto_class 'check',"could, lay, rose, said, meant, dealt, bathed",50,0,0,0,0,0,
+excluded: authors' list (other classes),"do, make, increase, address, conduct, hide, permit, protest, contract, reject, subject, record, escort, insult",14,0,0,0,0,0,
+total,,949,885,884,36026,30966,73019,

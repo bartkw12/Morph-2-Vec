@@ -11,6 +11,10 @@ out
 outputs/*
 !outputs/feasibility
 !outputs/feasibility/**
+!outputs/past_tense
+!outputs/past_tense/**
+# raw analogy runs (large, duplicated in partial_results/), like outputs/analogy/runs
+outputs/past_tense/runs*/
 .snakemake
 *.log
 *.pkl
