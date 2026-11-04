@@ -1,0 +1,197 @@
+model,experiment,target_class,base,past,base_pron,n_trials,top1,top1_lenient,mean_rank,wrong1,wrong1_n,wrong1_pron,wrong2,wrong2_n,wrong2_pron,wrong3,wrong3_n,wrong3_pron
+Wav2Vec,reg_to_devoicing,devoicing,bend,bent,B EH N D,193,0.031088082901554404,0.031088082901554404,41.32124352331606,mended,110.0,M EH N D IH D,indebted,10.0,IH N D EH T IH D,ended,10.0,EH N D IH D
+Wav2Vec,reg_to_devoicing,devoicing,lend,lent,L EH N D,193,0.34196891191709844,0.34196891191709844,3.238341968911917,landed,65.0,L AE N D IH D,mended,31.0,M EH N D IH D,led,12.0,L EH D
+Wav2Vec,reg_to_devoicing,devoicing,send,sent,S EH N D,204,0.4803921568627451,0.5,2.3088235294117645,descending,51.0,D IH S EH N D IH NG,descended,18.0,D IH S EH N D IH D,sending,13.0,S EH N D IH NG
+Wav2Vec,reg_to_devoicing,devoicing,build,built,B IH L D,201,0.5671641791044776,0.5671641791044776,0.9402985074626866,building,83.0,B IH L D IH NG,builds,2.0,B IH L D Z,rebuild,1.0,R IY B IH L D
+Wav2Vec,reg_to_devoicing,devoicing,spend,spent,S P EH N D,209,0.8947368421052632,0.8947368421052632,0.15311004784688995,spending,19.0,S P EH N D IH NG,suspended,2.0,S AH S P EH N D IH D,descended,1.0,D IH S EH N D IH D
+Wav2Vec,reg_to_semi_regular,semi_regular,bring,brought,B R IH NG,62,0.0,0.0,5666.080645161291,bringing,51.0,B R IH NG IH NG,bringin,4.0,B R IH NG AH N,brung,3.0,B R AH NG
+Wav2Vec,reg_to_semi_regular,semi_regular,catch,caught,K AE CH,42,0.0,0.0,7146.761904761905,catch'd,26.0,K AE CH IH D,catching,13.0,K AE CH IH NG,fetch,2.0,F EH CH
+Wav2Vec,reg_to_semi_regular,semi_regular,feel,felt,F IY L,51,0.0,0.0,88.01960784313725,feels,48.0,F IY L Z,feeling,2.0,F IY L IH NG,field,1.0,F IY L D
+Wav2Vec,reg_to_semi_regular,semi_regular,flee,fled,F L IY,58,0.0,0.0,729.0,flees,38.0,F L IY Z,freed,13.0,F R IY D,fleet,3.0,F L IY T
+Wav2Vec,reg_to_semi_regular,semi_regular,leave,left,L IY V,66,0.0,0.0,2626.4848484848485,lead,44.0,L IY D,leaving,13.0,L IY V IH NG,leaves,9.0,L IY V Z
+Wav2Vec,reg_to_semi_regular,semi_regular,lose,lost,L UW Z,42,0.0,0.0,9550.690476190477,losing,31.0,L UW Z IH NG,loses,8.0,L UW Z AH Z,loosed,2.0,L UW S T
+Wav2Vec,reg_to_semi_regular,semi_regular,seek,sought,S IY K,51,0.0,0.0,11178.117647058823,ceased,37.0,S IY S T,seeking,8.0,S IY K IH NG,seized,2.0,S IY Z D
+Wav2Vec,reg_to_semi_regular,semi_regular,sell,sold,S EH L,56,0.0,0.0,90.66071428571429,settle,36.0,S EH T AH L,settled,7.0,S EH T AH L D,sailed,5.0,S EY L D
+Wav2Vec,reg_to_semi_regular,semi_regular,sleep,slept,S L IY P,52,0.0,0.0,75.53846153846153,asleep,48.0,AH S L IY P,sleeping,3.0,S L IY P IH NG,sleeps,1.0,S L IY P S
+Wav2Vec,reg_to_semi_regular,semi_regular,sweep,swept,S W IY P,52,0.0,0.0,163.0,sweeping,37.0,S W IY P IH NG,sleep,5.0,S L IY P,sweeps,4.0,S W IY P S
+Wav2Vec,reg_to_semi_regular,semi_regular,teach,taught,T IY CH,52,0.0,0.0,34368.519230769234,teaching,33.0,T IY CH IH NG,teaches,14.0,T IY CH IH Z,teacher,4.0,T IY CH ER
+Wav2Vec,reg_to_semi_regular,semi_regular,tell,told,T EH L,50,0.0,0.0,46.4,tells,32.0,T EH L Z,telling,18.0,T EH L IH NG,,,
+Wav2Vec,reg_to_semi_regular,semi_regular,think,thought,TH IH NG K,58,0.0,0.0,4696.413793103448,thinking,55.0,TH IH NG K IH NG,thinks,3.0,TH IH NG K S,,,
+Wav2Vec,reg_to_semi_regular,semi_regular,weep,wept,W IY P,45,0.0,0.0,243.55555555555554,weeping,36.0,W IY P IH NG,weak,6.0,W IY K,leaped,1.0,L IY P T
+Wav2Vec,reg_to_semi_regular,semi_regular,buy,bought,B AY,60,0.016666666666666666,0.016666666666666666,94.8,buys,28.0,B AY Z,bye,20.0,B AY,bind,3.0,B AY N D
+Wav2Vec,reg_to_semi_regular,semi_regular,have,had,HH AE V,50,0.02,0.02,12.1,haven't,37.0,HH AE V AH N T,heaven,7.0,HH EH V AH N,having,4.0,HH AE V IH NG
+Wav2Vec,reg_to_semi_regular,semi_regular,creep,crept,K R IY P,47,0.02127659574468085,0.02127659574468085,46.191489361702125,creaked,24.0,K R IY K T,creeping,16.0,K R IY P IH NG,creak,2.0,K R IY K
+Wav2Vec,reg_to_semi_regular,semi_regular,keep,kept,K IY P,51,0.1568627450980392,0.1568627450980392,9.901960784313726,keeping,25.0,K IY P IH NG,keeps,13.0,K IY P S,keepin,5.0,K IY P IH N
+Wav2Vec,reg_to_semi_regular,semi_regular,dwell,dwelt,D W EH L,55,0.8181818181818182,0.8181818181818182,0.36363636363636365,dwelling,7.0,D W EH L IH NG,dwells,1.0,D W EH L Z,dealt,1.0,D EH L T
+Wav2Vec,reg_to_suppletive,suppletive,be,was,B IY,335,0.0,0.0,7825.976119402985,beat,110.0,B IY T,b,79.0,B IY,maybe,39.0,M EY B IY
+Wav2Vec,reg_to_suppletive,suppletive,be,were,B IY,324,0.0,0.0,21388.35802469136,beat,106.0,B IY T,b,75.0,B IY,maybe,50.0,M EY B IY
+Wav2Vec,reg_to_suppletive,suppletive,go,went,G OW,341,0.0,0.0,3522.826979472141,goes,261.0,G OW Z,ago,47.0,AH G OW,going,22.0,G OW IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,arise,arose,ER AY Z,14,0.0,0.0,105.35714285714286,rise,8.0,R AY Z,arises,4.0,ER AY Z IH Z,aroused,2.0,ER AW Z D
+Wav2Vec,reg_to_vowel_change,vowel_change,awake,awoke,AH W EY K,21,0.0,0.0,29.714285714285715,awakened,11.0,AH W EY K AH N D,wake,6.0,W EY K,awaken,2.0,AH W EY K AH N
+Wav2Vec,reg_to_vowel_change,vowel_change,bear,bore,B EH R,14,0.0,0.0,3129.1428571428573,bare,12.0,B EH R,bared,1.0,B EH R D,spared,1.0,S P EH R D
+Wav2Vec,reg_to_vowel_change,vowel_change,become,became,B IH K AH M,11,0.0,0.0,7.2727272727272725,becomes,9.0,B IH K AH M Z,becoming,2.0,B IH K AH M IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,behold,beheld,B IH HH OW L D,13,0.0,0.0,75.92307692307692,hold,8.0,HH OW L D,withhold,4.0,W IH TH HH OW L D,beholding,1.0,B IH HH OW L D IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,bind,bound,B AY N D,16,0.0,0.0,38.8125,buying,3.0,B AY IH NG,binding,3.0,B AY N D IH NG,divined,2.0,D IH V AY N D
+Wav2Vec,reg_to_vowel_change,vowel_change,bite,bit,B AY T,20,0.0,0.0,1009.15,bided,8.0,B AY D IH D,biting,2.0,B AY T IH NG,bites,2.0,B AY T S
+Wav2Vec,reg_to_vowel_change,vowel_change,blow,blew,B L OW,19,0.0,0.0,56.21052631578947,below,11.0,B IH L OW,blows,7.0,B L OW Z,glow,1.0,G L OW
+Wav2Vec,reg_to_vowel_change,vowel_change,break,broke,B R EY K,10,0.0,0.0,9.0,brake,6.0,B R EY K,breaking,2.0,B R EY K IH NG,breaks,2.0,B R EY K S
+Wav2Vec,reg_to_vowel_change,vowel_change,breed,bred,B R IY D,16,0.0,0.0,7471.0625,greed,9.0,G R IY D,breathed,3.0,B R IY DH D,breeds,1.0,B R IY D Z
+Wav2Vec,reg_to_vowel_change,vowel_change,choose,chose,CH UW Z,13,0.0,0.0,94.07692307692308,refused,5.0,R IH F Y UW Z D,choosing,5.0,CH UW Z IH NG,use,2.0,Y UW S
+Wav2Vec,reg_to_vowel_change,vowel_change,come,came,K AH M,11,0.0,0.0,84.63636363636364,coming,5.0,K AH M IH NG,comed,4.0,K AH M D,comes,1.0,K AH M Z
+Wav2Vec,reg_to_vowel_change,vowel_change,dive,dove,D AY V,17,0.0,0.0,2672.176470588235,died,9.0,D AY D,dived,5.0,D AY V D,dyed,2.0,D AY D
+Wav2Vec,reg_to_vowel_change,vowel_change,draw,drew,D R AO,15,0.0,0.0,126.33333333333333,drawn,7.0,D R AO N,drawing,6.0,D R AO IH NG,withdraw,2.0,W IH TH D R AO
+Wav2Vec,reg_to_vowel_change,vowel_change,drive,drove,D R AY V,20,0.0,0.0,53.3,driving,8.0,D R AY V IH NG,dive,6.0,D AY V,driver,3.0,D R AY V ER
+Wav2Vec,reg_to_vowel_change,vowel_change,fall,fell,F AO L,15,0.0,0.0,92.73333333333333,falls,13.0,F AO L Z,falling,1.0,F AA L IH NG,followed,1.0,F AA L OW D
+Wav2Vec,reg_to_vowel_change,vowel_change,feed,fed,F IY D,15,0.0,0.0,3236.133333333333,fee,14.0,F IY,feet,1.0,F IY T,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,fight,fought,F AY T,15,0.0,0.0,117.86666666666666,flight,8.0,F L AY T,fighting,7.0,F AY T IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,find,found,F AY N D,10,0.0,0.0,8.3,finds,5.0,F AY N D Z,finding,4.0,F AY N D IH NG,defined,1.0,D IH F AY N D
+Wav2Vec,reg_to_vowel_change,vowel_change,fly,flew,F L AY,5,0.0,0.0,1976.0,flies,3.0,F L AY Z,flying,2.0,F L AY IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,forget,forgot,F ER G EH T,9,0.0,0.0,92.66666666666667,forgive,8.0,F ER G IH V,forgetting,1.0,F ER G EH T IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,get,got,G EH T,17,0.0,0.0,55.64705882352941,git,17.0,G IH T,,,,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,grow,grew,G R OW,13,0.0,0.0,24.53846153846154,grown,11.0,G R OW N,grows,1.0,G R OW Z,growth,1.0,G R OW TH
+Wav2Vec,reg_to_vowel_change,vowel_change,hold,held,HH OW L D,6,0.0,0.0,501.3333333333333,holds,3.0,HH OW L D Z,behold,3.0,B IH HH OW L D,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,know,knew,N OW,17,0.0,0.0,33.0,knows,14.0,N OW Z,knowing,2.0,N OW IH NG,dunno,1.0,D AH N OW
+Wav2Vec,reg_to_vowel_change,vowel_change,lead,led,L IY D,17,0.0,0.0,660.2941176470588,leave,6.0,L IY V,leading,6.0,L IY D IH NG,leads,4.0,L IY D Z
+Wav2Vec,reg_to_vowel_change,vowel_change,meet,met,M IY T,10,0.0,0.0,260.1,meeting,8.0,M IY T IH NG,mete,2.0,M IY T,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,mistake,mistook,M IH S T EY K,12,0.0,0.0,5119.833333333333,mistaken,6.0,M IH S T EY K AH N,mistakes,4.0,M IH S T EY K S,extending,1.0,IH K S T EH N D IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,misunderstand,misunderstood,M IH S AH N D ER S T AE N D,16,0.0,0.0,49.8125,understand,11.0,AH N D ER S T AE N D,understanding,2.0,AH N D ER S T AE N D IH NG,misunderstanding,2.0,M IH S AH N D ER S T AE N D IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,overcome,overcame,OW V ER K AH M,11,0.0,0.0,45.54545454545455,overcoming,4.0,OW V ER K AH M IH NG,overwhelm,3.0,OW V ER W EH L M,overflowed,2.0,OW V ER F L OW D
+Wav2Vec,reg_to_vowel_change,vowel_change,overtake,overtook,OW V ER T EY K,16,0.0,0.0,155.5,overtaken,9.0,OW V ER T EY K AH N,undertake,5.0,AH N D ER T EY K,partake,1.0,P AA R T EY K
+Wav2Vec,reg_to_vowel_change,vowel_change,ride,rode,R AY D,10,0.0,0.0,461.2,rides,3.0,R AY D Z,derided,2.0,D IH R AY D IH D,write,2.0,R AY T
+Wav2Vec,reg_to_vowel_change,vowel_change,ring,rang,R IH NG,15,0.0,0.0,38.0,ringing,14.0,R IH NG IH NG,rings,1.0,R IH NG Z,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,run,ran,R AH N,17,0.0,0.0,39.705882352941174,running,11.0,R AH N IH NG,runnin,6.0,R AH N IH N,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,see,saw,S IY,19,0.0,0.0,3226.0526315789475,sees,7.0,S IY Z,sea,6.0,S IY,seized,3.0,S IY Z D
+Wav2Vec,reg_to_vowel_change,vowel_change,shake,shook,SH EY K,16,0.0,0.0,48.8125,shaken,9.0,SH EY K AH N,shaking,6.0,SH EY K IH NG,shakin,1.0,SH AE K IH N
+Wav2Vec,reg_to_vowel_change,vowel_change,shine,shone,SH AY N,15,0.0,0.0,50.53333333333333,shining,15.0,SH AY N IH NG,,,,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,shoot,shot,SH UW T,19,0.0,0.0,824.6315789473684,shewed,6.0,SH UW D,shoots,6.0,SH UW T S,shoe,3.0,SH UW
+Wav2Vec,reg_to_vowel_change,vowel_change,sing,sang,S IH NG,19,0.0,0.0,14.105263157894736,singing,13.0,S IH NG IH NG,sink,3.0,S IH NG K,insisting,1.0,IH N S IH S T IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,slay,slew,S L EY,14,0.0,0.0,296.64285714285717,slain,5.0,S L EY N,stay,4.0,S T EY,slave,4.0,S L EY V
+Wav2Vec,reg_to_vowel_change,vowel_change,slide,slid,S L AY D,15,0.0,0.0,295.73333333333335,sly,4.0,S L AY,sliding,4.0,S L AY D IH NG,lighted,2.0,L AY T IH D
+Wav2Vec,reg_to_vowel_change,vowel_change,speak,spoke,S P IY K,15,0.0,0.0,512.0666666666667,speaking,11.0,S P IY K IH NG,bespeak,3.0,B IH S P IY K,speaks,1.0,S P IY K S
+Wav2Vec,reg_to_vowel_change,vowel_change,speed,sped,S P IY D,19,0.0,0.0,8908.315789473685,steed,14.0,S T IY D,speedy,5.0,S P IY D IY,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,stand,stood,S T AE N D,12,0.0,0.0,250.83333333333334,standing,9.0,S T AE N D IH NG,stands,3.0,S T AE N D Z,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,steal,stole,S T IY L,8,0.0,0.0,401.875,distilled,4.0,D IH S T IH L D,steel,2.0,S T IY L,still,1.0,S T IH L
+Wav2Vec,reg_to_vowel_change,vowel_change,swing,swung,S W IH NG,14,0.0,0.0,9.428571428571429,swinging,10.0,S W IH NG IH NG,swishing,2.0,S W IH SH IH NG,string,1.0,S T R IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,tear,tore,T EH R,13,0.0,0.0,10339.615384615385,tears,3.0,T IH R Z,charioteer,2.0,CH EH R IY AH T IH R,carried,2.0,K EH R IY D
+Wav2Vec,reg_to_vowel_change,vowel_change,throw,threw,TH R OW,20,0.0,0.0,13.65,throwing,10.0,TH R OW IH NG,thrown,10.0,TH R OW N,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,understand,understood,AH N D ER S T AE N D,12,0.0,0.0,12.833333333333334,understanding,10.0,AH N D ER S T AE N D IH NG,understands,1.0,AH N D ER S T AE N D Z,misunderstand,1.0,M IH S AH N D ER S T AE N D
+Wav2Vec,reg_to_vowel_change,vowel_change,undertake,undertook,AH N D ER T EY K,5,0.0,0.0,63.6,undertaken,5.0,AH N D ER T EY K AH N,,,,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,wake,woke,W EY K,15,0.0,0.0,2628.4666666666667,waked,7.0,W EY K T,awake,5.0,AH W EY K,waited,2.0,W EY T IH D
+Wav2Vec,reg_to_vowel_change,vowel_change,wear,wore,W EH R,16,0.0,0.0,728.3125,wearing,6.0,W EH R IH NG,ware,5.0,W EH R,bear,3.0,B EH R
+Wav2Vec,reg_to_vowel_change,vowel_change,win,won,W IH N,14,0.0,0.0,370.35714285714283,winning,12.0,W IH N IH NG,winnowing,2.0,W IH N OW IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,withdraw,withdrew,W IH TH D R AO,19,0.0,0.0,8.578947368421053,withdrawn,12.0,W IH DH D R AO N,draw,7.0,D R AO,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,write,wrote,R AY T,15,0.0,0.0,40.6,writing,8.0,R AY T IH NG,writes,3.0,R AY T S,ride,2.0,R AY D
+Wav2Vec,reg_to_vowel_change,vowel_change,sink,sank,S IH NG K,13,0.07692307692307693,0.07692307692307693,6.0,sinking,9.0,S IH NG K IH NG,sneak,2.0,S N IY K,sitting,1.0,S IH T IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,stick,stuck,S T IH K,11,0.09090909090909091,0.09090909090909091,108.36363636363636,sticks,8.0,S T IH K S,sick,1.0,S IH K,stitch,1.0,S T IH CH
+Wav2Vec,reg_to_vowel_change,vowel_change,eat,ate,IY T,10,0.1,0.1,7.3,beat,6.0,B IY T,eating,2.0,IY T IH NG,each,1.0,IY CH
+Wav2Vec,reg_to_vowel_change,vowel_change,crow,crew,K R OW,17,0.11764705882352941,0.11764705882352941,10.588235294117647,cropper,5.0,K R AA P ER,crowing,3.0,K R OW IH NG,cairo,3.0,K AY R OW
+Wav2Vec,reg_to_vowel_change,vowel_change,give,gave,G IH V,7,0.14285714285714285,0.14285714285714285,21.714285714285715,giving,2.0,G IH V IH NG,gives,2.0,G IH V Z,given,1.0,G IH V AH N
+Wav2Vec,reg_to_vowel_change,vowel_change,sit,sat,S IH T,6,0.16666666666666666,0.16666666666666666,17.0,sits,4.0,S IH T S,sitting,1.0,S IH T IH NG,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,cling,clung,K L IH NG,11,0.18181818181818182,0.18181818181818182,9.727272727272727,clinging,9.0,K L IH NG IH NG,,,,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,swim,swam,S W IH M,22,0.18181818181818182,0.18181818181818182,7.181818181818182,swimming,9.0,S W IH M IH NG,swims,5.0,S W IH M Z,swing,3.0,S W IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,swear,swore,S W EH R,12,0.25,0.25,5.0,swearing,4.0,S W EH R IH NG,spared,3.0,S P EH R D,spare,1.0,S P EH R
+Wav2Vec,reg_to_vowel_change,vowel_change,take,took,T EY K,11,0.2727272727272727,0.2727272727272727,21.636363636363637,taken,5.0,T EY K AH N,taking,2.0,T EY K IH NG,takes,1.0,T EY K S
+Wav2Vec,reg_to_vowel_change,vowel_change,strike,struck,S T R AY K,16,0.3125,0.3125,1.0625,strikes,5.0,S T R AY K S,striped,4.0,S T R AY P T,striking,2.0,S T R AY K IH NG
+Wav2Vec,reg_to_vowel_change,vowel_change,dig,dug,D IH G,13,0.38461538461538464,0.38461538461538464,2.5384615384615383,digging,7.0,D IH G IH NG,gibbeted,1.0,G IH B AH T IH D,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,bid,bade,B IH D,19,0.5263157894736842,0.5263157894736842,0.7368421052631579,bit,8.0,B IH T,beg,1.0,B EH G,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,drink,drank,D R IH NG K,16,0.5625,0.5625,0.5,drinking,7.0,D R IH NG K IH NG,,,,,,
+Wav2Vec,reg_to_vowel_change,vowel_change,begin,began,B IH G IH N,10,0.6,0.6,1.4,beginning,2.0,B IH G IH N IH NG,begins,1.0,B IH G IH N Z,beginnin,1.0,B IH G IH N IH N
+Wav2Vec,reg_to_vowel_change,vowel_change,shrink,shrank,SH R IH NG K,16,0.8125,0.8125,0.5,shrinks,1.0,SH R IH NG K S,shrieked,1.0,SH R IY K T,shrunk,1.0,SH R AH NG K
+Word,reg_to_devoicing,devoicing,bend,bent,B EH N D,193,0.09326424870466321,0.09326424870466321,32.067357512953365,ben,77.0,B EH N,lend,59.0,L EH N D,demanded,17.0,D IH M AE N D IH D
+Word,reg_to_devoicing,devoicing,send,sent,S EH N D,204,0.23529411764705882,0.25,5.617647058823529,spend,63.0,S P EH N D,stand,50.0,S T AE N D,descended,18.0,D IH S EH N D IH D
+Word,reg_to_devoicing,devoicing,build,built,B IH L D,201,0.527363184079602,0.527363184079602,3.054726368159204,builded,66.0,B IH L D IH D,mingled,8.0,M IH NG G AH L D,building,5.0,B IH L D IH NG
+Word,reg_to_devoicing,devoicing,lend,lent,L EH N D,193,0.6321243523316062,0.6321243523316062,3.678756476683938,landed,40.0,L AE N D IH D,led,22.0,L EH D,lead,5.0,L IY D
+Word,reg_to_devoicing,devoicing,spend,spent,S P EH N D,209,0.6555023923444976,0.6555023923444976,4.6124401913875595,send,20.0,S EH N D,descended,18.0,D IH S EH N D IH D,sent,9.0,S EH N T
+Word,reg_to_semi_regular,semi_regular,bring,brought,B R IH NG,62,0.0,0.0,2832.0,bringing,19.0,B R IH NG IH NG,burned,13.0,B ER N D,brings,8.0,B R IH NG Z
+Word,reg_to_semi_regular,semi_regular,buy,bought,B AY,60,0.0,0.0,43.583333333333336,abide,24.0,AH B AY D,bye,17.0,B AY,paid,4.0,P EY D
+Word,reg_to_semi_regular,semi_regular,catch,caught,K AE CH,42,0.0,0.0,1476.8095238095239,catch'd,22.0,K AE CH IH D,ketchup,8.0,K EH CH AH P,catching,3.0,K AE CH IH NG
+Word,reg_to_semi_regular,semi_regular,feel,felt,F IY L,51,0.0,0.0,73.47058823529412,failed,19.0,F EY L D,filled,15.0,F IH L D,fell,13.0,F EH L
+Word,reg_to_semi_regular,semi_regular,flee,fled,F L IY,58,0.0,0.0,391.8965517241379,freed,25.0,F R IY D,feed,20.0,F IY D,free,4.0,F R IY
+Word,reg_to_semi_regular,semi_regular,leave,left,L IY V,66,0.0,0.0,654.6969696969697,lead,43.0,L IY D,lived,13.0,L IH V D,believed,8.0,B IH L IY V D
+Word,reg_to_semi_regular,semi_regular,lose,lost,L UW Z,42,0.0,0.0,1740.547619047619,loosed,22.0,L UW S T,loses,9.0,L UW Z AH Z,leads,8.0,L IY D Z
+Word,reg_to_semi_regular,semi_regular,seek,sought,S IY K,51,0.0,0.0,12248.058823529413,ceased,24.0,S IY S T,steeped,7.0,S T IY P T,succeed,2.0,S AH K S IY D
+Word,reg_to_semi_regular,semi_regular,sell,sold,S EH L,56,0.0,0.0,117.44642857142857,settled,32.0,S EH T AH L D,sail,9.0,S EY L,sailed,8.0,S EY L D
+Word,reg_to_semi_regular,semi_regular,sleep,slept,S L IY P,52,0.0,0.0,121.32692307692308,asleep,24.0,AH S L IY P,slipped,20.0,S L IH P T,steeped,3.0,S T IY P T
+Word,reg_to_semi_regular,semi_regular,sweep,swept,S W IY P,52,0.0,0.0,495.61538461538464,sweeps,10.0,S W IY P S,scooped,10.0,S K UW P T,swooped,5.0,S W UW P T
+Word,reg_to_semi_regular,semi_regular,teach,taught,T IY CH,52,0.0,0.0,17945.30769230769,cheat,51.0,CH IY T,teaching,1.0,T IY CH IH NG,,,
+Word,reg_to_semi_regular,semi_regular,think,thought,TH IH NG K,58,0.0,0.0,757.3965517241379,thanked,27.0,TH AE NG K T,thank,24.0,TH AE NG K,thinking,5.0,TH IH NG K IH NG
+Word,reg_to_semi_regular,semi_regular,weep,wept,W IY P,45,0.0,0.0,186.17777777777778,whipped,15.0,W IH P T,wait,5.0,W EY T,leaped,5.0,L IY P T
+Word,reg_to_semi_regular,semi_regular,keep,kept,K IY P,51,0.0392156862745098,0.0392156862745098,43.588235294117645,keepin,17.0,K IY P IH N,picked,14.0,P IH K T,kicked,8.0,K IH K T
+Word,reg_to_semi_regular,semi_regular,creep,crept,K R IY P,47,0.06382978723404255,0.06382978723404255,47.723404255319146,creaked,25.0,K R IY K T,pricked,10.0,P R IH K T,tripped,2.0,T R IH P T
+Word,reg_to_semi_regular,semi_regular,tell,told,T EH L,50,0.22,0.22,24.84,telling,11.0,T EH L IH NG,till,9.0,T IH L,until,7.0,AH N T IH L
+Word,reg_to_semi_regular,semi_regular,have,had,HH AE V,50,0.24,0.24,1.34,ha,36.0,HH AA,haven't,2.0,HH AE V AH N T,,,
+Word,reg_to_semi_regular,semi_regular,dwell,dwelt,D W EH L,55,0.2909090909090909,0.2909090909090909,17.21818181818182,doubled,10.0,D AH B AH L D,glowed,9.0,G L OW D,dawdled,8.0,D AO D AH L D
+Word,reg_to_suppletive,suppletive,be,was,B IY,335,0.0,0.0,16441.2,bade,206.0,B EY D,maybe,65.0,M EY B IY,made,20.0,M EY D
+Word,reg_to_suppletive,suppletive,be,were,B IY,324,0.0,0.0,26980.70987654321,bade,201.0,B EY D,maybe,54.0,M EY B IY,made,28.0,M EY D
+Word,reg_to_suppletive,suppletive,go,went,G OW,341,0.0,0.0,9009.16715542522,grew,110.0,G R UW,ago,99.0,AH G OW,got,30.0,G AA T
+Word,reg_to_vowel_change,vowel_change,arise,arose,ER AY Z,14,0.0,0.0,824.1428571428571,rise,4.0,R AY Z,aroused,3.0,ER AW Z D,raised,2.0,R EY Z D
+Word,reg_to_vowel_change,vowel_change,awake,awoke,AH W EY K,21,0.0,0.0,251.1904761904762,wait,8.0,W EY T,waked,8.0,W EY K T,wake,2.0,W EY K
+Word,reg_to_vowel_change,vowel_change,bear,bore,B EH R,14,0.0,0.0,780.5,bare,8.0,B EH R,bared,6.0,B EH R D,,,
+Word,reg_to_vowel_change,vowel_change,bite,bit,B AY T,20,0.0,0.0,1437.9,bided,8.0,B AY D IH D,backed,3.0,B AE K T,body,3.0,B AA D IY
+Word,reg_to_vowel_change,vowel_change,blow,blew,B L OW,19,0.0,0.05263157894736842,73.73684210526316,below,6.0,B IH L OW,bow,3.0,B AW,glow,2.0,G L OW
+Word,reg_to_vowel_change,vowel_change,break,broke,B R EY K,10,0.0,0.0,47.3,brake,6.0,B R EY K,grip,1.0,G R IH P,baked,1.0,B EY K T
+Word,reg_to_vowel_change,vowel_change,breed,bred,B R IY D,16,0.0,0.0,1035.25,greed,7.0,G R IY D,breathed,4.0,B R IY DH D,beat,3.0,B IY T
+Word,reg_to_vowel_change,vowel_change,cling,clung,K L IH NG,11,0.0,0.0,9.454545454545455,claimed,6.0,K L EY M D,clinging,4.0,K L IH NG IH NG,conclude,1.0,K AH N K L UW D
+Word,reg_to_vowel_change,vowel_change,come,came,K AH M,11,0.0,0.0,14.363636363636363,comed,6.0,K AH M D,become,3.0,B IH K AH M,happen,1.0,HH AE P AH N
+Word,reg_to_vowel_change,vowel_change,dig,dug,D IH G,13,0.0,0.0,83.61538461538461,dipped,5.0,D IH P T,skated,2.0,S K EY T IH D,being,2.0,B IY IH NG
+Word,reg_to_vowel_change,vowel_change,dive,dove,D AY V,17,0.0,0.0,3272.9411764705883,died,13.0,D AY D,dived,4.0,D AY V D,,,
+Word,reg_to_vowel_change,vowel_change,drive,drove,D R AY V,20,0.0,0.0,266.8,dried,5.0,D R AY D,drivin,4.0,D R AY V IH N,derived,4.0,D ER AY V D
+Word,reg_to_vowel_change,vowel_change,feed,fed,F IY D,15,0.0,0.0,456.0,defeated,6.0,D IH F IY T IH D,fitted,5.0,F IH T IH D,faded,2.0,F EY D IH D
+Word,reg_to_vowel_change,vowel_change,fly,flew,F L AY,5,0.0,0.0,1163.8,fried,2.0,F R AY D,plied,1.0,P L AY D,flag,1.0,F L AE G
+Word,reg_to_vowel_change,vowel_change,get,got,G EH T,17,0.0,0.0,7.9411764705882355,git,16.0,G IH T,gettin,1.0,G EH T IH N,,,
+Word,reg_to_vowel_change,vowel_change,hold,held,HH OW L D,6,0.0,0.0,151.0,huddled,3.0,HH AH D AH L D,pulled,2.0,P UH L D,withhold,1.0,W IH TH HH OW L D
+Word,reg_to_vowel_change,vowel_change,lead,led,L IY D,17,0.0,0.0,92.88235294117646,laid,7.0,L EY D,lived,5.0,L IH V D,wreathed,2.0,R IY DH D
+Word,reg_to_vowel_change,vowel_change,meet,met,M IY T,10,0.0,0.0,143.1,mete,6.0,M IY T,omitted,2.0,OW M IH T IH D,neat,1.0,N IY T
+Word,reg_to_vowel_change,vowel_change,mistake,mistook,M IH S T EY K,12,0.0,0.0,1175.0833333333333,mistaken,6.0,M IH S T EY K AH N,stake,3.0,S T EY K,escaped,2.0,IH S K EY P T
+Word,reg_to_vowel_change,vowel_change,misunderstand,misunderstood,M IH S AH N D ER S T AE N D,16,0.0,0.0,97.0,misunderstanding,5.0,M IH S AH N D ER S T AE N D IH NG,understood,4.0,AH N D ER S T UH D,understand,4.0,AH N D ER S T AE N D
+Word,reg_to_vowel_change,vowel_change,overtake,overtook,OW V ER T EY K,16,0.0,0.0,522.8125,overtaken,13.0,OW V ER T EY K AH N,correct,1.0,K ER EH K T,convert,1.0,K AH N V ER T
+Word,reg_to_vowel_change,vowel_change,ride,rode,R AY D,10,0.0,0.0,143.5,arrived,5.0,ER AY V D,read,2.0,R EH D,guided,1.0,G AY D IH D
+Word,reg_to_vowel_change,vowel_change,see,saw,S IY,19,0.0,0.0,530.1578947368421,seemed,10.0,S IY M D,seed,7.0,S IY D,seized,1.0,S IY Z D
+Word,reg_to_vowel_change,vowel_change,shake,shook,SH EY K,16,0.0,0.0,64.625,shaped,11.0,SH EY P T,shaken,2.0,SH EY K AH N,shaking,1.0,SH EY K IH NG
+Word,reg_to_vowel_change,vowel_change,shine,shone,SH AY N,15,0.0,0.0,165.93333333333334,shining,10.0,SH AY N IH NG,resigned,1.0,R IH Z AY N D,strained,1.0,S T R EY N D
+Word,reg_to_vowel_change,vowel_change,shoot,shot,SH UW T,19,0.0,0.0,4233.473684210527,shipped,5.0,SH IH P T,shewed,4.0,SH UW D,tribute,3.0,T R IH B Y UW T
+Word,reg_to_vowel_change,vowel_change,sing,sang,S IH NG,19,0.0,0.0,29.736842105263158,sinned,6.0,S IH N D,seen,3.0,S IY N,seemed,2.0,S IY M D
+Word,reg_to_vowel_change,vowel_change,sit,sat,S IH T,6,0.0,0.0,85.33333333333333,stepped,3.0,S T EH P T,stood,1.0,S T UH D,set,1.0,S EH T
+Word,reg_to_vowel_change,vowel_change,slay,slew,S L EY,14,0.0,0.0,325.35714285714283,stayed,6.0,S T EY D,slave,4.0,S L EY V,scaled,1.0,S K EY L D
+Word,reg_to_vowel_change,vowel_change,slide,slid,S L AY D,15,0.0,0.0,615.7333333333333,sighed,11.0,S AY D,studied,2.0,S T AH D IY D,slackened,1.0,S L AE K AH N D
+Word,reg_to_vowel_change,vowel_change,speed,sped,S P IY D,19,0.0,0.0,431.05263157894734,spade,4.0,S P EY D,speeded,4.0,S P IY D IH D,seed,3.0,S IY D
+Word,reg_to_vowel_change,vowel_change,stand,stood,S T AE N D,12,0.0,0.0,183.33333333333334,standing,5.0,S T AE N D IH NG,stands,2.0,S T AE N D Z,understand,1.0,AH N D ER S T AE N D
+Word,reg_to_vowel_change,vowel_change,steal,stole,S T IY L,8,0.0,0.0,89.0,stilled,6.0,S T IH L D,sealed,2.0,S IY L D,,,
+Word,reg_to_vowel_change,vowel_change,take,took,T EY K,11,0.0,0.0,23.636363636363637,kept,4.0,K EH P T,takes,3.0,T EY K S,taking,2.0,T EY K IH NG
+Word,reg_to_vowel_change,vowel_change,tear,tore,T EH R,13,0.0,0.0,2041.923076923077,cared,6.0,K EH R D,cheer,2.0,CH IH R,dared,1.0,D EH R D
+Word,reg_to_vowel_change,vowel_change,undertake,undertook,AH N D ER T EY K,5,0.0,0.0,534.8,undertaken,4.0,AH N D ER T EY K AH N,corrected,1.0,K ER EH K T AH D,,,
+Word,reg_to_vowel_change,vowel_change,wake,woke,W EY K,15,0.0,0.0,616.2666666666667,awake,6.0,AH W EY K,wait,3.0,W EY T,waked,3.0,W EY K T
+Word,reg_to_vowel_change,vowel_change,wear,wore,W EH R,16,0.0,0.0,206.875,whirred,5.0,W ER D,beware,4.0,B IH W EH R,buried,2.0,B EH R IY D
+Word,reg_to_vowel_change,vowel_change,win,won,W IH N,14,0.0,0.0,18.642857142857142,wind,3.0,W IH N D,ridden,2.0,R IH D AH N,winged,2.0,W IH NG D
+Word,reg_to_vowel_change,vowel_change,withdraw,withdrew,W IH TH D R AO,19,0.0,0.0,628.8947368421053,draw,8.0,D R AO,drew,5.0,D R UW,drugged,3.0,D R AH G D
+Word,reg_to_vowel_change,vowel_change,write,wrote,R AY T,15,0.0,0.0,404.0,ride,7.0,R AY D,right,3.0,R AY T,erected,2.0,IH R EH K T IH D
+Word,reg_to_vowel_change,vowel_change,swim,swam,S W IH M,22,0.045454545454545456,0.045454545454545456,25.636363636363637,swung,4.0,S W AH NG,sown,4.0,S OW N,swarmed,3.0,S W AO R M D
+Word,reg_to_vowel_change,vowel_change,crow,crew,K R OW,17,0.058823529411764705,0.058823529411764705,7.705882352941177,crowed,13.0,K R OW D,croy,1.0,K R OY,score,1.0,S K AO R
+Word,reg_to_vowel_change,vowel_change,draw,drew,D R AO,15,0.06666666666666667,0.06666666666666667,22.333333333333332,jogged,5.0,JH AA G D,dry,5.0,D R AY,drive,3.0,D R AY V
+Word,reg_to_vowel_change,vowel_change,fall,fell,F AO L,15,0.06666666666666667,0.06666666666666667,33.266666666666666,failed,4.0,F EY L D,fallen,2.0,F AA L AH N,followed,2.0,F AA L OW D
+Word,reg_to_vowel_change,vowel_change,speak,spoke,S P IY K,15,0.06666666666666667,0.06666666666666667,77.4,seek,7.0,S IY K,speaks,2.0,S P IY K S,escape,1.0,IH S K EY P
+Word,reg_to_vowel_change,vowel_change,sink,sank,S IH NG K,13,0.07692307692307693,0.07692307692307693,8.307692307692308,snipped,7.0,S N IH P T,sitting,2.0,S IH T IH NG,skimmed,2.0,S K IH M D
+Word,reg_to_vowel_change,vowel_change,become,became,B IH K AH M,11,0.09090909090909091,0.09090909090909091,5.636363636363637,begun,7.0,B IH G AH N,becomes,2.0,B IH K AH M Z,becoming,1.0,B IH K AH M IH NG
+Word,reg_to_vowel_change,vowel_change,stick,stuck,S T IH K,11,0.09090909090909091,0.09090909090909091,403.54545454545456,sick,3.0,S IH K,shaped,2.0,SH EY P T,staked,1.0,S T EY K T
+Word,reg_to_vowel_change,vowel_change,bind,bound,B AY N D,16,0.125,0.125,41.8125,blind,6.0,B L AY N D,declined,4.0,D IH K L AY N D,binds,1.0,B AY N D Z
+Word,reg_to_vowel_change,vowel_change,swear,swore,S W EH R,12,0.16666666666666666,0.16666666666666666,311.3333333333333,stared,5.0,S T EH R D,scared,2.0,S K EH R D,served,1.0,S ER V D
+Word,reg_to_vowel_change,vowel_change,overcome,overcame,OW V ER K AH M,11,0.18181818181818182,0.18181818181818182,30.363636363636363,open,4.0,OW P AH N,opened,3.0,OW P AH N D,overwhelmed,1.0,OW V ER W EH L M D
+Word,reg_to_vowel_change,vowel_change,fight,fought,F AY T,15,0.2,0.2,46.06666666666667,flight,10.0,F L AY T,frighted,1.0,F R AY T IH D,affected,1.0,AH F EH K T IH D
+Word,reg_to_vowel_change,vowel_change,ring,rang,R IH NG,15,0.2,0.2,5.933333333333334,ringing,4.0,R IH NG IH NG,ringed,3.0,R IH NG D,rain,3.0,R EY N
+Word,reg_to_vowel_change,vowel_change,swing,swung,S W IH NG,14,0.21428571428571427,0.21428571428571427,27.214285714285715,swinging,3.0,S W IH NG IH NG,streamed,3.0,S T R IY M D,swimming,2.0,S W IH M IH NG
+Word,reg_to_vowel_change,vowel_change,forget,forgot,F ER G EH T,9,0.2222222222222222,0.2222222222222222,91.22222222222223,forgetting,3.0,F ER G EH T IH NG,fitted,1.0,F IH T IH D,drifted,1.0,D R IH F T IH D
+Word,reg_to_vowel_change,vowel_change,run,ran,R AH N,17,0.23529411764705882,0.23529411764705882,69.3529411764706,wandered,4.0,W AA N D ER D,roamed,2.0,R OW M D,learn,1.0,L ER N
+Word,reg_to_vowel_change,vowel_change,find,found,F AY N D,10,0.3,0.3,13.5,finding,2.0,F AY N D IH NG,finds,2.0,F AY N D Z,defined,1.0,D IH F AY N D
+Word,reg_to_vowel_change,vowel_change,bid,bade,B IH D,19,0.3157894736842105,0.3157894736842105,1.894736842105263,bit,8.0,B IH T,begged,3.0,B EH G D,belabored,2.0,B IH L EY B ER D
+Word,reg_to_vowel_change,vowel_change,know,knew,N OW,17,0.35294117647058826,0.35294117647058826,1.9411764705882353,dunno,10.0,D AH N OW,now,1.0,N AW,,,
+Word,reg_to_vowel_change,vowel_change,strike,struck,S T R AY K,16,0.375,0.375,4.25,striped,5.0,S T R AY P T,stretched,3.0,S T R EH CH T,striking,1.0,S T R AY K IH NG
+Word,reg_to_vowel_change,vowel_change,give,gave,G IH V,7,0.42857142857142855,0.42857142857142855,5.857142857142857,gib,2.0,G IH B,given,2.0,G IH V AH N,,,
+Word,reg_to_vowel_change,vowel_change,drink,drank,D R IH NG K,16,0.5,0.5,3.5625,dreamt,4.0,D R EH M T,grinned,2.0,G R IH N D,drifted,1.0,D R IH F T IH D
+Word,reg_to_vowel_change,vowel_change,behold,beheld,B IH HH OW L D,13,0.5384615384615384,0.5384615384615384,2.3846153846153846,pulled,3.0,P UH L D,hold,2.0,HH OW L D,withhold,1.0,W IH TH HH OW L D
+Word,reg_to_vowel_change,vowel_change,shrink,shrank,SH R IH NG K,16,0.5625,0.5625,7.0625,straighten,1.0,S T R EY T AH N,drenched,1.0,D R EH N CH T,stricken,1.0,S T R IH K AH N
+Word,reg_to_vowel_change,vowel_change,understand,understood,AH N D ER S T AE N D,12,0.75,0.75,0.25,understands,2.0,AH N D ER S T AE N D Z,understanding,1.0,AH N D ER S T AE N D IH NG,,,
+Word,reg_to_vowel_change,vowel_change,choose,chose,CH UW Z,13,0.7692307692307693,0.7692307692307693,0.5384615384615384,used,3.0,Y UW Z D,,,,,,
+Word,reg_to_vowel_change,vowel_change,grow,grew,G R OW,13,0.7692307692307693,0.7692307692307693,0.7692307692307693,drugged,1.0,D R AH G D,dropped,1.0,D R AA P T,grown,1.0,G R OW N
+Word,reg_to_vowel_change,vowel_change,throw,threw,TH R OW,20,0.8,0.8,0.35,throwed,3.0,TH R OW D,thorow,1.0,TH AO R OW,,,
+Word,reg_to_vowel_change,vowel_change,begin,began,B IH G IH N,10,0.9,0.9,0.7,blamed,1.0,B L EY M D,,,,,,
+Word,reg_to_vowel_change,vowel_change,eat,ate,IY T,10,1.0,1.0,0.0,,,,,,,,,

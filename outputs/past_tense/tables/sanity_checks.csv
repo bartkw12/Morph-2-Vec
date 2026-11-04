@@ -1,0 +1,23 @@
+check,model,value,lo,hi,reference,pass
+reg_to_reg top-1 close to feasibility 'past regular (auto-class regular only)',Wav2Vec,0.729,0.6946481201852942,0.7636966719673486,0.7110609480812641,True
+vowel_change_to_vowel_change in the range of feasibility irregular -> irregular,Wav2Vec,0.186,0.14212564693494395,0.23613465745190515,0.16-0.19,True
+random_to_reg near the feasibility random-pair control (-> NNS / VBZ),Wav2Vec,0.127,0.10568684754894887,0.14837949358409244,0.115,
+random_to_semi_regular near the feasibility random-pair control (-> NNS / VBZ),Wav2Vec,0.018,0.0030118220630268827,0.039255134757871554,0.115,
+random_to_devoicing near the feasibility random-pair control (-> NNS / VBZ),Wav2Vec,0.095,0.044897959183673466,0.1437007874015748,0.115,
+random_to_vowel_change near the feasibility random-pair control (-> NNS / VBZ),Wav2Vec,0.018,0.009,0.02763848495576656,0.115,
+random_to_suppletive near the feasibility random-pair control (-> NNS / VBZ),Wav2Vec,0.0,0.0,0.0,0.115,
+reg_to_reg top-1 close to feasibility 'past regular (auto-class regular only)',Word,0.778,0.7454281212416892,0.8087233051817893,0.7697516930022573,True
+vowel_change_to_vowel_change in the range of feasibility irregular -> irregular,Word,0.261,0.21865378534054777,0.30539700321500557,0.22-0.25,True
+random_to_reg near the feasibility random-pair control (-> NNS / VBZ),Word,0.014,0.007135032072797793,0.021494370522006142,0.0225,True
+random_to_semi_regular near the feasibility random-pair control (-> NNS / VBZ),Word,0.012,0.005802707930367505,0.019417947484125408,0.0225,True
+random_to_devoicing near the feasibility random-pair control (-> NNS / VBZ),Word,0.022,0.01017293997965412,0.03283582089552239,0.0225,True
+random_to_vowel_change near the feasibility random-pair control (-> NNS / VBZ),Word,0.021,0.011764130309658111,0.03115651020173633,0.0225,True
+random_to_suppletive near the feasibility random-pair control (-> NNS / VBZ),Word,0.0,0.0,0.0,0.0225,True
+reg_to_devoicing: fewer than 10 target verbs (flag),both,5,,,10,
+reg_to_suppletive: fewer than 10 target verbs (flag),both,2,,,10,
+devoicing_to_devoicing: fewer than 10 target verbs (flag),both,5,,,10,
+random_to_devoicing: fewer than 10 target verbs (flag),both,5,,,10,
+random_to_suppletive: fewer than 10 target verbs (flag),both,2,,,10,
+reg_T_to_devoicing: fewer than 10 target verbs (flag),both,5,,,10,
+reg_D_to_devoicing: fewer than 10 target verbs (flag),both,5,,,10,
+both models saw the same sampled trials (same seed),both,True,,,True,True

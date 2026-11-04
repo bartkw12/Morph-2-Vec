@@ -1,0 +1,7 @@
+model,term,coef,lo,hi,n_verbs,spearman_edit_dist_top1,note
+Wav2Vec,intercept,0.01999254067306926,-0.14246636629938342,0.1865323259710355,98,-0.045953490683092624,exploratory linear fit on per-verb top-1; percentile CI over verbs
+Wav2Vec,edit_dist,0.018437708585615005,-0.046465901191791274,0.084615673143089,98,-0.045953490683092624,exploratory linear fit on per-verb top-1; percentile CI over verbs
+Wav2Vec,adds_stop,0.08341436328769901,-0.03442646766549993,0.21627103301519202,98,-0.045953490683092624,exploratory linear fit on per-verb top-1; percentile CI over verbs
+Word,intercept,0.022037038049105798,-0.16232471357400416,0.21010742893997664,98,0.04743350968305732,exploratory linear fit on per-verb top-1; percentile CI over verbs
+Word,edit_dist,0.04938151159923404,-0.025381359359478765,0.1312606160597415,98,0.04743350968305732,exploratory linear fit on per-verb top-1; percentile CI over verbs
+Word,adds_stop,0.006153454215938941,-0.1041642540874884,0.11015695989622394,98,0.04743350968305732,exploratory linear fit on per-verb top-1; percentile CI over verbs
